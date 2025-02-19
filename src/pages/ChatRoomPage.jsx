@@ -4,7 +4,6 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { useChat } from '../hooks/useChat';
 import SocketService from '../services/socket';
-import MessageStorageService from '../services/messageStorage';
 import ChatHeader from '../components/chat/ChatHeader';
 import ParticipantList from '../components/chat/ParticipantList';
 import MessageList from '../components/chat/MessageList';
